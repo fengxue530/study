@@ -59,7 +59,7 @@ public class SwaggerWebMvcConfig {
     private ApiInfo webApiInfo() {
         return new ApiInfoBuilder()
                 .title("用户中心微服务前台网站API")
-                .description("瞄准月亮，即使失败也会落在群星之间")
+                .description("向着月亮进发，即使失败也会落在群星之间")
                 .version("1.0")
                 .contact(new Contact("fx", "http://oneinchofsunshine.com", "oneinchofsunshine.com@163.com"))
                 .build();
@@ -68,7 +68,7 @@ public class SwaggerWebMvcConfig {
     private ApiInfo adminApiInfo() {
         return new ApiInfoBuilder()
                 .title("用户中心微服务后台管理系统的API")
-                .description("瞄准月亮，即使失败也会落在群星之间")
+                .description("向着月亮进发，即使失败也会落在群星之间")
                 .version("1.0")
                 .contact(new Contact("fx", "http://oneinchofsunshine.com", "oneinchofsunshine.com@163.com"))
                 .build();

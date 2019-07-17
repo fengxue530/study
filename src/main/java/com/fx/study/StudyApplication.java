@@ -10,15 +10,17 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @ComponentScan("com.fx")
 @EnableSwagger2
-public class StudyApplication  extends SpringBootServletInitializer {
+/*** eureka  客户端注解*/
+/*@EnableDiscoveryClient*/
+public class StudyApplication extends SpringBootServletInitializer {
 
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(StudyApplication.class);
-	}
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+        return builder.sources(StudyApplication.class);
+    }
 
-	public static void main(String[] args) {
-		SpringApplication.run(StudyApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(StudyApplication.class, args);
+    }
 
 }

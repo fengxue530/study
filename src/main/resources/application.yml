@@ -1,3 +1,21 @@
-
 swagger2:
   enable: false
+
+
+spring:
+  application:
+    name: mail-demo
+  mail:
+    host: smtp.qq.com
+    username: 2764416290@qq.com # 这里填写企业邮箱
+    password: acrhyxqiymdkdegg # 这里填写企业邮箱登录密码
+    port: 587
+    properties:
+      mail.smtp.properties.mail.smtp.socketFactoryClass: javax.net.ssl.SSLSocketFactory
+      mail.default-encoding : UTF-8
+      #mail.smtp.socketFactory.fallback: false
+      #mail.smtp.socketFactory.port: 465　
+      #mail.properties.mail.debug: true
+      #mail.smtp.auth: true
+
+
